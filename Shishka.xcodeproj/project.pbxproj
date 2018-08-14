@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36070AB32122EC9C00D00748 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36070AB22122EC9C00D00748 /* AppDelegate.swift */; };
+		36070AB52122EC9C00D00748 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36070AB42122EC9C00D00748 /* ViewController.swift */; };
+		36070AB82122EC9C00D00748 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36070AB62122EC9C00D00748 /* Main.storyboard */; };
+		36070ABA2122EC9E00D00748 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36070AB92122EC9E00D00748 /* Assets.xcassets */; };
+		36070ABD2122EC9E00D00748 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36070ABB2122EC9E00D00748 /* LaunchScreen.storyboard */; };
+		36070AC82122EC9E00D00748 /* ShishkaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36070AC72122EC9E00D00748 /* ShishkaTests.swift */; };
+		36070AD32122EC9E00D00748 /* ShishkaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36070AD22122EC9E00D00748 /* ShishkaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36070AC42122EC9E00D00748 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36070AA72122EC9C00D00748 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36070AAE2122EC9C00D00748;
+			remoteInfo = Shishka;
+		};
+		36070ACF2122EC9E00D00748 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36070AA72122EC9C00D00748 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36070AAE2122EC9C00D00748;
+			remoteInfo = Shishka;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		36070AAF2122EC9C00D00748 /* Shishka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shishka.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36070AB22122EC9C00D00748 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		36070AB42122EC9C00D00748 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		36070AB72122EC9C00D00748 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		36070AB92122EC9E00D00748 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		36070ABC2122EC9E00D00748 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		36070ABE2122EC9E00D00748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36070AC32122EC9E00D00748 /* ShishkaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShishkaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36070AC72122EC9E00D00748 /* ShishkaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShishkaTests.swift; sourceTree = "<group>"; };
+		36070AC92122EC9E00D00748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36070ACE2122EC9E00D00748 /* ShishkaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShishkaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36070AD22122EC9E00D00748 /* ShishkaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShishkaUITests.swift; sourceTree = "<group>"; };
+		36070AD42122EC9E00D00748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36070AAC2122EC9C00D00748 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36070AC02122EC9E00D00748 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36070ACB2122EC9E00D00748 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36070AA62122EC9C00D00748 = {
+			isa = PBXGroup;
+			children = (
+				36070AB12122EC9C00D00748 /* Shishka */,
+				36070AC62122EC9E00D00748 /* ShishkaTests */,
+				36070AD12122EC9E00D00748 /* ShishkaUITests */,
+				36070AB02122EC9C00D00748 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36070AB02122EC9C00D00748 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36070AAF2122EC9C00D00748 /* Shishka.app */,
+				36070AC32122EC9E00D00748 /* ShishkaTests.xctest */,
+				36070ACE2122EC9E00D00748 /* ShishkaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36070AB12122EC9C00D00748 /* Shishka */ = {
+			isa = PBXGroup;
+			children = (
+				36070AB22122EC9C00D00748 /* AppDelegate.swift */,
+				36070AB42122EC9C00D00748 /* ViewController.swift */,
+				36070AB62122EC9C00D00748 /* Main.storyboard */,
+				36070AB92122EC9E00D00748 /* Assets.xcassets */,
+				36070ABB2122EC9E00D00748 /* LaunchScreen.storyboard */,
+				36070ABE2122EC9E00D00748 /* Info.plist */,
+			);
+			path = Shishka;
+			sourceTree = "<group>";
+		};
+		36070AC62122EC9E00D00748 /* ShishkaTests */ = {
+			isa = PBXGroup;
+			children = (
+				36070AC72122EC9E00D00748 /* ShishkaTests.swift */,
+				36070AC92122EC9E00D00748 /* Info.plist */,
+			);
+			path = ShishkaTests;
+			sourceTree = "<group>";
+		};
+		36070AD12122EC9E00D00748 /* ShishkaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				36070AD22122EC9E00D00748 /* ShishkaUITests.swift */,
+				36070AD42122EC9E00D00748 /* Info.plist */,
+			);
+			path = ShishkaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36070AAE2122EC9C00D00748 /* Shishka */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36070AD72122EC9E00D00748 /* Build configuration list for PBXNativeTarget "Shishka" */;
+			buildPhases = (
+				36070AAB2122EC9C00D00748 /* Sources */,
+				36070AAC2122EC9C00D00748 /* Frameworks */,
+				36070AAD2122EC9C00D00748 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shishka;
+			productName = Shishka;
+			productReference = 36070AAF2122EC9C00D00748 /* Shishka.app */;
+			productType = "com.apple.product-type.application";
+		};
+		36070AC22122EC9E00D00748 /* ShishkaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36070ADA2122EC9E00D00748 /* Build configuration list for PBXNativeTarget "ShishkaTests" */;
+			buildPhases = (
+				36070ABF2122EC9E00D00748 /* Sources */,
+				36070AC02122EC9E00D00748 /* Frameworks */,
+				36070AC12122EC9E00D00748 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36070AC52122EC9E00D00748 /* PBXTargetDependency */,
+			);
+			name = ShishkaTests;
+			productName = ShishkaTests;
+			productReference = 36070AC32122EC9E00D00748 /* ShishkaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		36070ACD2122EC9E00D00748 /* ShishkaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36070ADD2122EC9E00D00748 /* Build configuration list for PBXNativeTarget "ShishkaUITests" */;
+			buildPhases = (
+				36070ACA2122EC9E00D00748 /* Sources */,
+				36070ACB2122EC9E00D00748 /* Frameworks */,
+				36070ACC2122EC9E00D00748 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36070AD02122EC9E00D00748 /* PBXTargetDependency */,
+			);
+			name = ShishkaUITests;
+			productName = ShishkaUITests;
+			productReference = 36070ACE2122EC9E00D00748 /* ShishkaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36070AA72122EC9C00D00748 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = DariaTsenter;
+				TargetAttributes = {
+					36070AAE2122EC9C00D00748 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					36070AC22122EC9E00D00748 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 36070AAE2122EC9C00D00748;
+					};
+					36070ACD2122EC9E00D00748 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 36070AAE2122EC9C00D00748;
+					};
+				};
+			};
+			buildConfigurationList = 36070AAA2122EC9C00D00748 /* Build configuration list for PBXProject "Shishka" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36070AA62122EC9C00D00748;
+			productRefGroup = 36070AB02122EC9C00D00748 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36070AAE2122EC9C00D00748 /* Shishka */,
+				36070AC22122EC9E00D00748 /* ShishkaTests */,
+				36070ACD2122EC9E00D00748 /* ShishkaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36070AAD2122EC9C00D00748 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36070ABD2122EC9E00D00748 /* LaunchScreen.storyboard in Resources */,
+				36070ABA2122EC9E00D00748 /* Assets.xcassets in Resources */,
+				36070AB82122EC9C00D00748 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36070AC12122EC9E00D00748 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36070ACC2122EC9E00D00748 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36070AAB2122EC9C00D00748 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36070AB52122EC9C00D00748 /* ViewController.swift in Sources */,
+				36070AB32122EC9C00D00748 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36070ABF2122EC9E00D00748 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36070AC82122EC9E00D00748 /* ShishkaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36070ACA2122EC9E00D00748 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36070AD32122EC9E00D00748 /* ShishkaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36070AC52122EC9E00D00748 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36070AAE2122EC9C00D00748 /* Shishka */;
+			targetProxy = 36070AC42122EC9E00D00748 /* PBXContainerItemProxy */;
+		};
+		36070AD02122EC9E00D00748 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36070AAE2122EC9C00D00748 /* Shishka */;
+			targetProxy = 36070ACF2122EC9E00D00748 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		36070AB62122EC9C00D00748 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36070AB72122EC9C00D00748 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		36070ABB2122EC9E00D00748 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36070ABC2122EC9E00D00748 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36070AD52122EC9E00D00748 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		36070AD62122EC9E00D00748 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36070AD82122EC9E00D00748 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Shishka/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dariatsenter.Shishka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		36070AD92122EC9E00D00748 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Shishka/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dariatsenter.Shishka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		36070ADB2122EC9E00D00748 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ShishkaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dariatsenter.ShishkaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shishka.app/Shishka";
+			};
+			name = Debug;
+		};
+		36070ADC2122EC9E00D00748 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ShishkaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dariatsenter.ShishkaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shishka.app/Shishka";
+			};
+			name = Release;
+		};
+		36070ADE2122EC9E00D00748 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ShishkaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dariatsenter.ShishkaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Shishka;
+			};
+			name = Debug;
+		};
+		36070ADF2122EC9E00D00748 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ShishkaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dariatsenter.ShishkaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Shishka;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36070AAA2122EC9C00D00748 /* Build configuration list for PBXProject "Shishka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36070AD52122EC9E00D00748 /* Debug */,
+				36070AD62122EC9E00D00748 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36070AD72122EC9E00D00748 /* Build configuration list for PBXNativeTarget "Shishka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36070AD82122EC9E00D00748 /* Debug */,
+				36070AD92122EC9E00D00748 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36070ADA2122EC9E00D00748 /* Build configuration list for PBXNativeTarget "ShishkaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36070ADB2122EC9E00D00748 /* Debug */,
+				36070ADC2122EC9E00D00748 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36070ADD2122EC9E00D00748 /* Build configuration list for PBXNativeTarget "ShishkaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36070ADE2122EC9E00D00748 /* Debug */,
+				36070ADF2122EC9E00D00748 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36070AA72122EC9C00D00748 /* Project object */;
+}
