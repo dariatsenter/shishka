@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,7 +17,35 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        FirebaseApp.configure()
+        let db = Firestore.firestore()
+        let storage = Storage.storage()
+        
+        if (Auth.auth().currentUser != nil) {
+            self.showLoginScreen(animated: false)
+        } else{
+            print("logged in user\(String(describing: Auth.auth().currentUser))")
+        }
+        
         return true
+    }
+    
+    func showLoginScreen(animated: Bool){
+        let storyboard = UIStoryboard(name: "Main", bundle:nil)
+        let viewController = storyboard.instantiateViewController(withIdentifier: "logInVC") as! ViewController
+        self.window?.makeKeyAndVisible()
+        self.window?.rootViewController?.present(viewController, animated:animated, completion: nil)
+    }
+    
+    func logout( ){
+        //sign the user out
+        try! Auth.auth().signOut()
+        
+        let storyboard = UIStoryboard(name: "Main", bundle:nil)
+        let viewController = storyboard.instantiateViewController(withIdentifier: "mainVC") as! UITabBarController
+        self.window?.rootViewController = viewController
+        
+        self.showLoginScreen(animated: false)
     }
 
     func applicationWillResignActive(_ application: UIApplication) {

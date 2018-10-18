@@ -14,6 +14,17 @@
 		36070ABD2122EC9E00D00748 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36070ABB2122EC9E00D00748 /* LaunchScreen.storyboard */; };
 		36070AC82122EC9E00D00748 /* ShishkaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36070AC72122EC9E00D00748 /* ShishkaTests.swift */; };
 		36070AD32122EC9E00D00748 /* ShishkaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36070AD22122EC9E00D00748 /* ShishkaUITests.swift */; };
+		363D2AB92178D17F00EDF6EA /* ConnectInstagramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363D2AB82178D17F00EDF6EA /* ConnectInstagramViewController.swift */; };
+		367602C4216565AC0013DA4A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 367602C3216565AC0013DA4A /* GoogleService-Info.plist */; };
+		367602C5216565AC0013DA4A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 367602C3216565AC0013DA4A /* GoogleService-Info.plist */; };
+		367602C6216565AC0013DA4A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 367602C3216565AC0013DA4A /* GoogleService-Info.plist */; };
+		36C3377E2124360C00B569C4 /* EventsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C3377D2124360C00B569C4 /* EventsController.swift */; };
+		36E64E28212302AE00E9BD50 /* LoggedInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E64E27212302AE00E9BD50 /* LoggedInViewController.swift */; };
+		36F6D53F216685E4002806C2 /* EventCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F6D53E216685E4002806C2 /* EventCollectionViewCell.swift */; };
+		36F766DC216FAB4E00991B44 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F766DB216FAB4E00991B44 /* RegisterViewController.swift */; };
+		3D92BB0D0684F5A42CD38957 /* Pods_ShishkaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8305E1C2DA48D4D0E35659F4 /* Pods_ShishkaUITests.framework */; };
+		66313E12FFF63C69220D02EB /* Pods_ShishkaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A5F27E03772198B39AD187F /* Pods_ShishkaTests.framework */; };
+		7956D79A13EE3D0E1292C0D8 /* Pods_Shishka.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D43AF1BEAD59536A6E14EA71 /* Pods_Shishka.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0ECC7A037A54D3E9B4E6906F /* Pods-ShishkaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShishkaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShishkaTests/Pods-ShishkaTests.release.xcconfig"; sourceTree = "<group>"; };
 		36070AAF2122EC9C00D00748 /* Shishka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shishka.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36070AB22122EC9C00D00748 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36070AB42122EC9C00D00748 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +59,20 @@
 		36070ACE2122EC9E00D00748 /* ShishkaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShishkaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36070AD22122EC9E00D00748 /* ShishkaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShishkaUITests.swift; sourceTree = "<group>"; };
 		36070AD42122EC9E00D00748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		363D2AB82178D17F00EDF6EA /* ConnectInstagramViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectInstagramViewController.swift; sourceTree = "<group>"; };
+		367602C3216565AC0013DA4A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		36C3377D2124360C00B569C4 /* EventsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsController.swift; sourceTree = "<group>"; };
+		36E64E27212302AE00E9BD50 /* LoggedInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedInViewController.swift; sourceTree = "<group>"; };
+		36F6D53E216685E4002806C2 /* EventCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCollectionViewCell.swift; sourceTree = "<group>"; };
+		36F766DB216FAB4E00991B44 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		3A5F27E03772198B39AD187F /* Pods_ShishkaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShishkaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D2BF6BE9AA466E81D321EF3 /* Pods-ShishkaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShishkaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShishkaUITests/Pods-ShishkaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		537526D852B933F6B337DBFF /* Pods-Shishka.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shishka.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Shishka/Pods-Shishka.debug.xcconfig"; sourceTree = "<group>"; };
+		6B9D7DCC9863872EEC7E8247 /* Pods-Shishka.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shishka.release.xcconfig"; path = "Pods/Target Support Files/Pods-Shishka/Pods-Shishka.release.xcconfig"; sourceTree = "<group>"; };
+		80DAAA4B2A82FCD195CE4420 /* Pods-ShishkaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShishkaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShishkaUITests/Pods-ShishkaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8305E1C2DA48D4D0E35659F4 /* Pods_ShishkaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShishkaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D43AF1BEAD59536A6E14EA71 /* Pods_Shishka.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shishka.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F13B3F88F71DFB014810B5F4 /* Pods-ShishkaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShishkaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShishkaTests/Pods-ShishkaTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7956D79A13EE3D0E1292C0D8 /* Pods_Shishka.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66313E12FFF63C69220D02EB /* Pods_ShishkaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D92BB0D0684F5A42CD38957 /* Pods_ShishkaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +110,8 @@
 				36070AC62122EC9E00D00748 /* ShishkaTests */,
 				36070AD12122EC9E00D00748 /* ShishkaUITests */,
 				36070AB02122EC9C00D00748 /* Products */,
+				47A9A57EC693B7400C670132 /* Pods */,
+				DACC70A4850F3EC6C7F20F11 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,9 +131,15 @@
 				36070AB22122EC9C00D00748 /* AppDelegate.swift */,
 				36070AB42122EC9C00D00748 /* ViewController.swift */,
 				36070AB62122EC9C00D00748 /* Main.storyboard */,
+				36F766DB216FAB4E00991B44 /* RegisterViewController.swift */,
+				363D2AB82178D17F00EDF6EA /* ConnectInstagramViewController.swift */,
+				36F6D53E216685E4002806C2 /* EventCollectionViewCell.swift */,
+				36C3377D2124360C00B569C4 /* EventsController.swift */,
+				36E64E27212302AE00E9BD50 /* LoggedInViewController.swift */,
 				36070AB92122EC9E00D00748 /* Assets.xcassets */,
 				36070ABB2122EC9E00D00748 /* LaunchScreen.storyboard */,
 				36070ABE2122EC9E00D00748 /* Info.plist */,
+				367602C3216565AC0013DA4A /* GoogleService-Info.plist */,
 			);
 			path = Shishka;
 			sourceTree = "<group>";
@@ -125,6 +162,29 @@
 			path = ShishkaUITests;
 			sourceTree = "<group>";
 		};
+		47A9A57EC693B7400C670132 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				537526D852B933F6B337DBFF /* Pods-Shishka.debug.xcconfig */,
+				6B9D7DCC9863872EEC7E8247 /* Pods-Shishka.release.xcconfig */,
+				F13B3F88F71DFB014810B5F4 /* Pods-ShishkaTests.debug.xcconfig */,
+				0ECC7A037A54D3E9B4E6906F /* Pods-ShishkaTests.release.xcconfig */,
+				80DAAA4B2A82FCD195CE4420 /* Pods-ShishkaUITests.debug.xcconfig */,
+				3D2BF6BE9AA466E81D321EF3 /* Pods-ShishkaUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DACC70A4850F3EC6C7F20F11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D43AF1BEAD59536A6E14EA71 /* Pods_Shishka.framework */,
+				3A5F27E03772198B39AD187F /* Pods_ShishkaTests.framework */,
+				8305E1C2DA48D4D0E35659F4 /* Pods_ShishkaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +192,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 36070AD72122EC9E00D00748 /* Build configuration list for PBXNativeTarget "Shishka" */;
 			buildPhases = (
+				628D30C6BC92890BA5D060B4 /* [CP] Check Pods Manifest.lock */,
 				36070AAB2122EC9C00D00748 /* Sources */,
 				36070AAC2122EC9C00D00748 /* Frameworks */,
 				36070AAD2122EC9C00D00748 /* Resources */,
+				F63E9BFA6A06CA02F9DE9C6D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +211,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 36070ADA2122EC9E00D00748 /* Build configuration list for PBXNativeTarget "ShishkaTests" */;
 			buildPhases = (
+				305BE57DEE96F201824CEAFC /* [CP] Check Pods Manifest.lock */,
 				36070ABF2122EC9E00D00748 /* Sources */,
 				36070AC02122EC9E00D00748 /* Frameworks */,
 				36070AC12122EC9E00D00748 /* Resources */,
@@ -167,6 +230,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 36070ADD2122EC9E00D00748 /* Build configuration list for PBXNativeTarget "ShishkaUITests" */;
 			buildPhases = (
+				4F374821CE5D2D75A1FD305F /* [CP] Check Pods Manifest.lock */,
 				36070ACA2122EC9E00D00748 /* Sources */,
 				36070ACB2122EC9E00D00748 /* Frameworks */,
 				36070ACC2122EC9E00D00748 /* Resources */,
@@ -230,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				36070ABD2122EC9E00D00748 /* LaunchScreen.storyboard in Resources */,
+				367602C4216565AC0013DA4A /* GoogleService-Info.plist in Resources */,
 				36070ABA2122EC9E00D00748 /* Assets.xcassets in Resources */,
 				36070AB82122EC9C00D00748 /* Main.storyboard in Resources */,
 			);
@@ -239,6 +304,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				367602C5216565AC0013DA4A /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,17 +312,116 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				367602C6216565AC0013DA4A /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		305BE57DEE96F201824CEAFC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShishkaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F374821CE5D2D75A1FD305F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShishkaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		628D30C6BC92890BA5D060B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Shishka-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F63E9BFA6A06CA02F9DE9C6D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Shishka/Pods-Shishka-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Shishka/Pods-Shishka-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		36070AAB2122EC9C00D00748 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				363D2AB92178D17F00EDF6EA /* ConnectInstagramViewController.swift in Sources */,
+				36E64E28212302AE00E9BD50 /* LoggedInViewController.swift in Sources */,
 				36070AB52122EC9C00D00748 /* ViewController.swift in Sources */,
+				36C3377E2124360C00B569C4 /* EventsController.swift in Sources */,
+				36F766DC216FAB4E00991B44 /* RegisterViewController.swift in Sources */,
+				36F6D53F216685E4002806C2 /* EventCollectionViewCell.swift in Sources */,
 				36070AB32122EC9C00D00748 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,9 +593,11 @@
 		};
 		36070AD82122EC9E00D00748 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 537526D852B933F6B337DBFF /* Pods-Shishka.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B26DM5LJJD;
 				INFOPLIST_FILE = Shishka/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -445,9 +612,11 @@
 		};
 		36070AD92122EC9E00D00748 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B9D7DCC9863872EEC7E8247 /* Pods-Shishka.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B26DM5LJJD;
 				INFOPLIST_FILE = Shishka/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -462,6 +631,7 @@
 		};
 		36070ADB2122EC9E00D00748 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F13B3F88F71DFB014810B5F4 /* Pods-ShishkaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -482,6 +652,7 @@
 		};
 		36070ADC2122EC9E00D00748 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ECC7A037A54D3E9B4E6906F /* Pods-ShishkaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +673,7 @@
 		};
 		36070ADE2122EC9E00D00748 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80DAAA4B2A82FCD195CE4420 /* Pods-ShishkaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -521,6 +693,7 @@
 		};
 		36070ADF2122EC9E00D00748 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D2BF6BE9AA466E81D321EF3 /* Pods-ShishkaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
