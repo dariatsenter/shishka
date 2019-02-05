@@ -15,9 +15,18 @@
 		36070AC82122EC9E00D00748 /* ShishkaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36070AC72122EC9E00D00748 /* ShishkaTests.swift */; };
 		36070AD32122EC9E00D00748 /* ShishkaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36070AD22122EC9E00D00748 /* ShishkaUITests.swift */; };
 		363D2AB92178D17F00EDF6EA /* ConnectInstagramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363D2AB82178D17F00EDF6EA /* ConnectInstagramViewController.swift */; };
+		363D2ABB2178E57A00EDF6EA /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363D2ABA2178E57A00EDF6EA /* API.swift */; };
+		36534EFE218230E0000E9378 /* SingleEventCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36534EFD218230E0000E9378 /* SingleEventCellViewController.swift */; };
+		3665058B217FAC1000612353 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3665058A217FAC1000612353 /* ProfileViewController.swift */; };
+		3665058C217FAC1000612353 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3665058A217FAC1000612353 /* ProfileViewController.swift */; };
+		3665058D217FAC1000612353 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3665058A217FAC1000612353 /* ProfileViewController.swift */; };
 		367602C4216565AC0013DA4A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 367602C3216565AC0013DA4A /* GoogleService-Info.plist */; };
 		367602C5216565AC0013DA4A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 367602C3216565AC0013DA4A /* GoogleService-Info.plist */; };
 		367602C6216565AC0013DA4A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 367602C3216565AC0013DA4A /* GoogleService-Info.plist */; };
+		36A2CD222180EB2D00851926 /* CustomTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A2CD212180EB2D00851926 /* CustomTabBarViewController.swift */; };
+		36B7FDFD2196098000238ADB /* BarterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B7FDFC2196098000238ADB /* BarterViewController.swift */; };
+		36B7FDFF21960BC700238ADB /* BarterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B7FDFE21960BC700238ADB /* BarterCollectionViewCell.swift */; };
+		36B7FE0121960DF300238ADB /* SingleBarterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B7FE0021960DF300238ADB /* SingleBarterViewController.swift */; };
 		36C3377E2124360C00B569C4 /* EventsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C3377D2124360C00B569C4 /* EventsController.swift */; };
 		36E64E28212302AE00E9BD50 /* LoggedInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E64E27212302AE00E9BD50 /* LoggedInViewController.swift */; };
 		36F6D53F216685E4002806C2 /* EventCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F6D53E216685E4002806C2 /* EventCollectionViewCell.swift */; };
@@ -60,9 +69,17 @@
 		36070AD22122EC9E00D00748 /* ShishkaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShishkaUITests.swift; sourceTree = "<group>"; };
 		36070AD42122EC9E00D00748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		363D2AB82178D17F00EDF6EA /* ConnectInstagramViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectInstagramViewController.swift; sourceTree = "<group>"; };
+		363D2ABA2178E57A00EDF6EA /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		36534EFD218230E0000E9378 /* SingleEventCellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleEventCellViewController.swift; sourceTree = "<group>"; };
+		3665058A217FAC1000612353 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		367602C3216565AC0013DA4A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		36A2CD212180EB2D00851926 /* CustomTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarViewController.swift; sourceTree = "<group>"; };
+		36B7FDFC2196098000238ADB /* BarterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarterViewController.swift; sourceTree = "<group>"; };
+		36B7FDFE21960BC700238ADB /* BarterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarterCollectionViewCell.swift; sourceTree = "<group>"; };
+		36B7FE0021960DF300238ADB /* SingleBarterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleBarterViewController.swift; sourceTree = "<group>"; };
 		36C3377D2124360C00B569C4 /* EventsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsController.swift; sourceTree = "<group>"; };
 		36E64E27212302AE00E9BD50 /* LoggedInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedInViewController.swift; sourceTree = "<group>"; };
+		36F19206217F858A004EE247 /* Shishka-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Shishka-Bridging-Header.h"; sourceTree = "<group>"; };
 		36F6D53E216685E4002806C2 /* EventCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCollectionViewCell.swift; sourceTree = "<group>"; };
 		36F766DB216FAB4E00991B44 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		3A5F27E03772198B39AD187F /* Pods_ShishkaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShishkaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -128,13 +145,17 @@
 		36070AB12122EC9C00D00748 /* Shishka */ = {
 			isa = PBXGroup;
 			children = (
+				36F19206217F858A004EE247 /* Shishka-Bridging-Header.h */,
 				36070AB22122EC9C00D00748 /* AppDelegate.swift */,
 				36070AB42122EC9C00D00748 /* ViewController.swift */,
 				36070AB62122EC9C00D00748 /* Main.storyboard */,
+				36A2CD212180EB2D00851926 /* CustomTabBarViewController.swift */,
+				3665058A217FAC1000612353 /* ProfileViewController.swift */,
 				36F766DB216FAB4E00991B44 /* RegisterViewController.swift */,
+				363D2ABA2178E57A00EDF6EA /* API.swift */,
 				363D2AB82178D17F00EDF6EA /* ConnectInstagramViewController.swift */,
-				36F6D53E216685E4002806C2 /* EventCollectionViewCell.swift */,
-				36C3377D2124360C00B569C4 /* EventsController.swift */,
+				3687627321AC73E0008309C9 /* Barter */,
+				3687627221AC73AB008309C9 /* Events */,
 				36E64E27212302AE00E9BD50 /* LoggedInViewController.swift */,
 				36070AB92122EC9E00D00748 /* Assets.xcassets */,
 				36070ABB2122EC9E00D00748 /* LaunchScreen.storyboard */,
@@ -160,6 +181,26 @@
 				36070AD42122EC9E00D00748 /* Info.plist */,
 			);
 			path = ShishkaUITests;
+			sourceTree = "<group>";
+		};
+		3687627221AC73AB008309C9 /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				36534EFD218230E0000E9378 /* SingleEventCellViewController.swift */,
+				36F6D53E216685E4002806C2 /* EventCollectionViewCell.swift */,
+				36C3377D2124360C00B569C4 /* EventsController.swift */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
+		3687627321AC73E0008309C9 /* Barter */ = {
+			isa = PBXGroup;
+			children = (
+				36B7FDFC2196098000238ADB /* BarterViewController.swift */,
+				36B7FDFE21960BC700238ADB /* BarterCollectionViewCell.swift */,
+				36B7FE0021960DF300238ADB /* SingleBarterViewController.swift */,
+			);
+			path = Barter;
 			sourceTree = "<group>";
 		};
 		47A9A57EC693B7400C670132 /* Pods */ = {
@@ -197,6 +238,7 @@
 				36070AAC2122EC9C00D00748 /* Frameworks */,
 				36070AAD2122EC9C00D00748 /* Resources */,
 				F63E9BFA6A06CA02F9DE9C6D /* [CP] Embed Pods Frameworks */,
+				CB83565AD4CAAC9CCD56AC2E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -373,6 +415,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		CB83565AD4CAAC9CCD56AC2E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Shishka/Pods-Shishka-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Shishka/Pods-Shishka-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		F63E9BFA6A06CA02F9DE9C6D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -380,11 +440,20 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Shishka/Pods-Shishka-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/DynamicBlurView/DynamicBlurView.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleAPIClientForREST/GoogleAPIClientForREST.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/PopupDialog/PopupDialog.framework",
 				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/Sparrow/Sparrow.framework",
+				"${BUILT_PRODUCTS_DIR}/TransitionButton/TransitionButton.framework",
 				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
 				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
 				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
 				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
@@ -393,11 +462,20 @@
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DynamicBlurView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleAPIClientForREST.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PopupDialog.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Sparrow.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TransitionButton.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
@@ -420,9 +498,16 @@
 				36E64E28212302AE00E9BD50 /* LoggedInViewController.swift in Sources */,
 				36070AB52122EC9C00D00748 /* ViewController.swift in Sources */,
 				36C3377E2124360C00B569C4 /* EventsController.swift in Sources */,
+				36B7FDFD2196098000238ADB /* BarterViewController.swift in Sources */,
 				36F766DC216FAB4E00991B44 /* RegisterViewController.swift in Sources */,
+				36B7FE0121960DF300238ADB /* SingleBarterViewController.swift in Sources */,
 				36F6D53F216685E4002806C2 /* EventCollectionViewCell.swift in Sources */,
+				36A2CD222180EB2D00851926 /* CustomTabBarViewController.swift in Sources */,
+				3665058B217FAC1000612353 /* ProfileViewController.swift in Sources */,
+				363D2ABB2178E57A00EDF6EA /* API.swift in Sources */,
+				36B7FDFF21960BC700238ADB /* BarterCollectionViewCell.swift in Sources */,
 				36070AB32122EC9C00D00748 /* AppDelegate.swift in Sources */,
+				36534EFE218230E0000E9378 /* SingleEventCellViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +515,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3665058C217FAC1000612353 /* ProfileViewController.swift in Sources */,
 				36070AC82122EC9E00D00748 /* ShishkaTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -438,6 +524,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3665058D217FAC1000612353 /* ProfileViewController.swift in Sources */,
 				36070AD32122EC9E00D00748 /* ShishkaUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -533,6 +620,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "Shishka/Shishka-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -586,6 +674,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "Shishka/Shishka-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};

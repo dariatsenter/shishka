@@ -13,4 +13,8 @@ class EventCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var companyName: UILabel!
     @IBOutlet weak var eventAddress: UILabel!
     @IBOutlet weak var eventImage: UIImageView!
+    var eventDescription: String = ""
+    var eventTime: String = ""
+    var downloadURL: String = ""
+    var documentID: String = ""
 }
